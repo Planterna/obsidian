@@ -26,7 +26,11 @@ jobs:
       - name: Run obsidian-export
         run: |
           rm -rf temp_blog/common_md && mkdir temp_blog/common_md
-          ./obsidian-export_Linux-x86_64.bin ./temp_md/${{ env.PUBLISH_DIR }} temp_blog/common_md
+          SOURCE_DIR="./temp_md/${{ env.PUBLISH_DIR }}"
+          if [ ! -d "$SOURCE_DIR" ]; then
+            SOURCE_DIR="./temp_md"
+          fi
+          ./obsidian-export_Linux-x86_64.bin "$SOURCE_DIR" temp_blog/common_md
       - name: Move blog dir to currDir
         run: |
           cp -r temp_blog/. .
