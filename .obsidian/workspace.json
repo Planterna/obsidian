@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "b49c60cce119ee9f",
+        "id": "22a877672d53dbdf",
         "type": "tabs",
         "children": [
           {
-            "id": "c8774b2129dacab8",
+            "id": "4d30543244fd6dea",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Prueba/Nota de Prueba.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Nota de Prueba"
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -99,7 +95,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Prueba/Nota de Prueba.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +113,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Prueba/Nota de Prueba.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +155,6 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Prueba/Nota de Prueba.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -185,7 +178,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,7 +196,9 @@
   },
   "active": "850b1c6ef9ccc9d2",
   "lastOpenFiles": [
+    "Prueba2/Prueba Dos.md",
     "Prueba/Nota de Prueba.md",
+    "Prueba2",
     "Prueba",
     "Sin título.canvas"
   ]
