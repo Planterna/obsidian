@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "22a877672d53dbdf",
+        "id": "8d28d0a68d6080c1",
         "type": "tabs",
         "children": [
           {
-            "id": "4d30543244fd6dea",
+            "id": "bc6856a0550d45fb",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -196,6 +196,8 @@
   },
   "active": "850b1c6ef9ccc9d2",
   "lastOpenFiles": [
+    "Configuracion/Config.md",
+    "Configuracion",
     "Prueba2/Prueba Dos.md",
     "Prueba/Nota de Prueba.md",
     "Prueba2",
